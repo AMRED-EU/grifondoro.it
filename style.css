@@ -281,7 +281,7 @@ footer {
   padding: 4rem 2rem;
   max-width: 700px;
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.3);
   border-radius: 12px;
 }
 
@@ -314,7 +314,7 @@ footer {
   background-color: #555;
 }
 .content-box {
-  background: rgba(255, 255, 255, 0.8); /* semitrasparente bianco */
+  background: rgba(255, 255, 255, 0.3); /* semitrasparente bianco */
   padding: 2rem;
   margin: 1.5rem auto;
   border-radius: 10px;
