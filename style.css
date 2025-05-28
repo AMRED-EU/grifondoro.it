@@ -313,3 +313,25 @@ footer {
 .contact-form button:hover {
   background-color: #555;
 }
+.content-box {
+  background-color: rgba(255, 255, 255, 0.85); /* Sfondo chiaro, leggibile */
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2px);
+}
+
+.content-box h1,
+.content-box h2,
+.content-box h3 {
+  color: #222;
+  margin-top: 0;
+}
+
+.content-box p,
+.content-box li {
+  color: #444;
+  line-height: 1.6;
+}
