@@ -114,6 +114,24 @@ body.bg-stampa3d::before {
   z-index: -1;
 }
 
+body.bg-competenze {
+  background-image: url('img/sfondo-competenze.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+body.bg-competenze::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* overlay per migliorare leggibilità */
+  z-index: -1;
+}
+
 header {
   background-color: var(--colore-primario);
   padding: 1rem 2rem;
