@@ -96,7 +96,7 @@ footer {
    Background dinamico pagina
    ========================= */
 body.bg-chi-siamo {
-  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('img/sfondo-astratto.webp') center center / cover fixed no-repeat;
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('img/sfondo-astratto.jpg') center center / cover fixed no-repeat;
   color: #fff;
   position: relative;
 }
@@ -111,7 +111,7 @@ body.bg-chi-siamo::before {
   background: rgba(0,0,0,0.3);
   z-index: -1;
   animation: panBg 40s linear infinite;
-  background-image: url('img/sfondo-astratto.webp');
+  background-image: url('img/sfondo-astratto.jpg');
   background-size: 120%;
   background-repeat: no-repeat;
   background-position: center;
