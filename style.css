@@ -132,6 +132,24 @@ body.bg-competenze::before {
   z-index: -1;
 }
 
+body.bg-contattaci {
+  background-image: url('img/sfondo-contattaci.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+body.bg-contattaci::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* overlay per miglior contrasto testo */
+  z-index: -1;
+}
+
 header {
   background-color: var(--colore-primario);
   padding: 1rem 2rem;
