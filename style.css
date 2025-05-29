@@ -314,13 +314,13 @@ footer {
   background-color: #555;
 }
 .content-box {
-  background: rgba(255, 255, 255, 0.3); /* semitrasparente bianco */
+  background: rgba(255, 255, 255, 0.6); /* più trasparente */
   padding: 2rem;
   margin: 1.5rem auto;
   border-radius: 10px;
   max-width: 800px;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
-  backdrop-filter: blur(6px);
-  transition: all 0.3s ease-in-out;
+  backdrop-filter: blur(6px); /* più sfocatura dietro */
+  color: #111;
 }
 
