@@ -261,7 +261,7 @@ footer {
   .nav-links {
     display: none;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 60px;
     right: 0;
@@ -320,7 +320,7 @@ footer {
   border-radius: 10px;
   max-width: 800px;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(6px);
   transition: all 0.3s ease-in-out;
 }
 
