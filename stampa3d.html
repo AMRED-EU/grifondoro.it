@@ -23,7 +23,27 @@
   </ul>
 </nav>
   </header>
-  
+  <section class="gallery-section">
+  <h3>Alcuni esempi realizzati</h3>
+  <div class="gallery-grid">
+    <img src="img/gallery1.png" alt="Stampa 3D - 1" class="thumb" onclick="openLightbox(0)">
+    <img src="img/gallery2.png" alt="Stampa 3D - 2" class="thumb" onclick="openLightbox(1)">
+    <img src="img/gallery3.png" alt="Stampa 3D - 3" class="thumb" onclick="openLightbox(2)">
+    <img src="img/gallery4.png" alt="Stampa 3D - 4" class="thumb" onclick="openLightbox(3)">
+    <img src="img/gallery5.png" alt="Stampa 3D - 5" class="thumb" onclick="openLightbox(4)">
+    <img src="img/gallery6.png" alt="Stampa 3D - 6" class="thumb" onclick="openLightbox(5)">
+    <img src="img/gallery7.png" alt="Stampa 3D - 7" class="thumb" onclick="openLightbox(6)">
+    <img src="img/gallery8.png" alt="Stampa 3D - 8" class="thumb" onclick="openLightbox(7)">
+  </div>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
+    <button class="lightbox-nav prev" onclick="prevImage(event)">&#10094;</button>
+    <img id="lightbox-img" src="" alt="Zoom">
+    <button class="lightbox-nav next" onclick="nextImage(event)">&#10095;</button>
+  </div>
+</section>
+
   <main>
     <h1>Stampa 3D</h1>
     
@@ -65,19 +85,6 @@
     L’adozione della stampa 3D ci permette di ridurre drasticamente sprechi e costi, migliorando performance tecniche e ambientali. Ogni componente è progettato per massimizzare l’efficienza d’uso dei materiali e minimizzare il peso, mantenendo performance strutturali elevate.
   </p>
   </main>
-  <section class="gallery-section">
-  <h3>Alcuni esempi realizzati</h3>
-  <div class="gallery-grid">
-    <img src="img/gallery1.png" alt="Stampa 3D - 1">
-    <img src="img/gallery2.png" alt="Stampa 3D - 2">
-    <img src="img/gallery3.png" alt="Stampa 3D - 3">
-    <img src="img/gallery4.png" alt="Stampa 3D - 4">
-    <img src="img/gallery5.png" alt="Stampa 3D - 5">
-    <img src="img/gallery6.png" alt="Stampa 3D - 6">
-    <img src="img/gallery7.png" alt="Stampa 3D - 7">
-    <img src="img/gallery8.png" alt="Stampa 3D - 8">
-  </div>
-</section>
   <footer>
     <p>&copy; 2025 Grifondoro. Tutti i diritti riservati.</p>
   </footer>
