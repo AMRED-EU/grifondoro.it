@@ -322,5 +322,18 @@ footer {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
   backdrop-filter: blur(6px); /* più sfocatura dietro */
   color: #111;
+
 }
+.logo {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.logo img {
+  height: 100%;
+  width: auto;
+  max-height: 60px;
+}
+
 
