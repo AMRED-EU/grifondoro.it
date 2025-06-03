@@ -6,6 +6,39 @@
   <title>Stampa 3D - Grifondoro</title>
   <link rel="stylesheet" href="style.css">
 </head>
+  <script>
+const images = [
+  "img/gallery1.png", "img/gallery2.png", "img/gallery3.png", "img/gallery4.png",
+  "img/gallery5.png", "img/gallery6.png", "img/gallery7.png", "img/gallery8.png"
+];
+let currentIndex = 0;
+
+function openLightbox(index) {
+  currentIndex = index;
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.getElementById("lightbox-img");
+  lightboxImg.src = images[currentIndex];
+  lightbox.style.display = "flex";
+}
+
+function closeLightbox(event) {
+  if (event.target.id === "lightbox") {
+    document.getElementById("lightbox").style.display = "none";
+  }
+}
+
+function prevImage(event) {
+  event.stopPropagation();
+  currentIndex = (currentIndex - 1 + images.length) % images.length;
+  document.getElementById("lightbox-img").src = images[currentIndex];
+}
+
+function nextImage(event) {
+  event.stopPropagation();
+  currentIndex = (currentIndex + 1) % images.length;
+  document.getElementById("lightbox-img").src = images[currentIndex];
+}
+</script>
 <body class="bg-stampa3d">
   <header>
 <nav>
