@@ -338,18 +338,19 @@ footer {
 }
 
 .gallery-grid {
+  .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1rem;
-  padding: 0 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0.8rem;
+  padding: 0 0.5rem;
+  justify-items: center;
 }
 
-.gallery-grid img {
+.gallery-grid .thumb {
   width: 100%;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  transition: transform 0.3s ease;
+  max-width: 140px;
 }
+
 
 .gallery-grid img:hover {
   transform: scale(1.03);
